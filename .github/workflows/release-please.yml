@@ -1,0 +1,19 @@
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pull-requests: write
+
+name: release-please
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: googleapis/release-please-action@v4
+        with:
+          release-type: node
+          changelog-types: '[{"type":"feat","section":"✨ Características","hidden":false},{"type":"fix","section":"🐛 Correcciones","hidden":false},{"type":"chore","section":"🚀 Tareas","hidden":false}]'
