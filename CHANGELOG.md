@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/BeLc3bU/portfolio-game/compare/v1.0.0...v1.1.0) (2026-03-15)
+
+
+### Features
+
+* implementar personaje, máquinas arcade y sistema de movimiento (Fase 2) ([5b722a4](https://github.com/BeLc3bU/portfolio-game/commit/5b722a41e19c13b7134a0fb66ef6d44bc1bc2011))
+
 ## 1.0.0 (2026-03-15)
 
 
