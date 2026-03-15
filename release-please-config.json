@@ -1,0 +1,7 @@
+{
+  "changelog-sections": [
+    {"type": "feat", "section": "✨ Características", "hidden": false},
+    {"type": "fix", "section": "🐛 Correcciones", "hidden": false},
+    {"type": "chore", "section": "🚀 Tareas", "hidden": false}
+  ]
+}
