@@ -12,3 +12,10 @@
 - El proyecto se ha inicializado con la plantilla `react-ts` de Vite.
 - Se han instalado `phaser`, `lucide-react` y `framer-motion` como dependencias base.
 - Se ha restaurado el archivo `AGENTS.md` después de que la CLI de Vite borrara los archivos existentes en el directorio.
+
+## [2026-03-15] Fase 2: Mecánicas y Assets Kenney
+
+### Decisiones Técnicas:
+1.  **Movimiento**: Implementado en la clase `Player` con soporte para WASD y Flechas. Se usa normalización de vectores para evitar mayor velocidad en diagonales.
+2.  **Sistema de Proximidad**: Las máquinas arcade (`ArcadeMachine`) detectan al jugador y muestran un prompt visual ("Presiona E") mediante cálculos de distancia Euclídea en el `update` de la escena.
+3.  **Gestión de Assets**: Se han integrado sprites reales del pack de Kenney (`character-gamer`, `arcade-machine`, etc.) cargados dinámicamente mediante `URL` e `import.meta.url`.
